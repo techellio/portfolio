@@ -2,12 +2,86 @@
 /* CSS Document */
 
 body{
-	background-image:url(girl-with-a-phone2.jpg);
-	background-repeat: repeat;
+	/*background-image:url(girl-with-a-phone2.jpg); */
+	/*Black & White*/
+	/*background-image: url(/img/girl-with-a-phone.gif); */
+	/* Color background-image: url(/img/girl-with-a-phone2.gif);*/
+	/*background-repeat: repeat;
 	background-position: center;
+	opacity: 0.5;
+	filter: alpha(opacity=50);*/
+	background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	url(/img/girl-with-a-phone.gif);
+	background-size: cover;
+	font-family: Cambria, Georgia, serif;
 }
+header{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+h1{
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+nav li{
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 1rem;
+	white-space: nowrap;
+	color: #C25625;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 1rem;
+	white-space: nowrap;
+	color: #C25625;
+}
+
+/*.left, .right{
+	float: left;
+	width: 300px;
+	margin: 0px;
+	/*background-color: #cccccc;
+	text-transform: uppercase;
+	font-size: 1rem;
+	white-space: nowrap;
+	color: white;
+}*/
+.left{
+	margin-left: 80px;
+	
+	float: left;
+	width: 500px;
+	/*margin: 90px;*/
+	text-transform: capitalize;
+	font-size: 1rem;
+	white-space: nowrap;
+	color: white;
+}
+.right{
+	float: left;
+	width: 300px;
+	margin: 40px;
+	text-transform: capitalize;
+	font-size: 1rem;
+	white-space: nowrap;
+	color: white;
+
+}
+
+
 #shell{
-	background-color: #cccccc;
+	/*background-color: #cccccc;
 	font-family: Cambria, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 20px;
@@ -15,15 +89,10 @@ body{
 	line-height: 20px;
 	text-transform: none;
 	margin: 0px 40px 0px 20px;
-	padding: 0px 40px 0px 20px;
+	padding: 0px 40px 0px 20px;*/
 }
-.left, .right{
-	float: left;
-	width: auto;
-	margin: 10px;
-	background-color: #cccccc;
-}
-nav li{
+
+/*nav li{
 	display: inline;
 }
 ul{
@@ -32,4 +101,4 @@ ul{
 a{
 	text-decoration: none;
 	color: #2c2a2a;
-}
+}*/
