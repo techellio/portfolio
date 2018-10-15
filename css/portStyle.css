@@ -29,6 +29,16 @@ h1{
   font-size: 3rem;
   white-space: nowrap;
 }
+h2{
+ text-transform: capitalize;
+  margin: 0;
+  font-size: 2rem;
+  white-space: nowrap;
+  color: white;
+  text-align: left;
+  font-family: Cambria, Georgia, serif;
+
+}
 nav li{
 	text-transform: uppercase;
 	margin: 0;
@@ -40,7 +50,7 @@ ul{
 	list-style-type: none;
 }
 a{
-	text-transform: uppercase;
+	text-transform: capitalize;
 	margin: 0;
 	font-size: 1rem;
 	white-space: nowrap;
@@ -66,11 +76,12 @@ a{
 	font-size: 1rem;
 	white-space: nowrap;
 	color: white;*/
-
-float: left;
+float: left !important;
+text-align:left;
 width: 300px;
 margin: 20px;
-padding: 10px;
+padding: 2px;
+text-transform: capitalize;
 }
 .right{
 	float: left;
