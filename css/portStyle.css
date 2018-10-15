@@ -57,16 +57,20 @@ a{
 	white-space: nowrap;
 	color: white;
 }*/
-.left{
-	margin-left: 80px;
-	
+.column1of2 , .column2of2{
+	/*margin-left: 80px;
 	float: left;
 	width: 500px;
-	/*margin: 90px;*/
+	/*margin: 90px;
 	text-transform: capitalize;
 	font-size: 1rem;
 	white-space: nowrap;
-	color: white;
+	color: white;*/
+
+float: left;
+width: 300px;
+margin: 20px;
+padding: 10px;
 }
 .right{
 	float: left;
