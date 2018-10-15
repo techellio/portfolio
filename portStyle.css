@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(girl-with-a-phone2.jpg);
+	background-repeat: repeat;
+	background-position: center;
+}
+#shell{
+	background-color: #cccccc;
+	font-family: Cambria, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #2C2A2A;
+	line-height: 20px;
+	text-transform: none;
+	margin: 0px 40px 0px 20px;
+	padding: 0px 40px 0px 20px;
+}
+.left, .right{
+	float: left;
+	width: auto;
+	margin: 10px;
+	background-color: #cccccc;
+}
+nav li{
+	display: inline;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #2c2a2a;
+}
