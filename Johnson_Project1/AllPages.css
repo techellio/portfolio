@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+#shell{
+	background-color: lightgrey;
+}
+nav{
+	display: flex;
+	list-style: none;
+	background: hsla(0,0%,47%,0.40);
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 30px 0px;
+	text-align: center;
+	word-spacing: 30px;
+	
+}
+#logo{float: right;
+padding-left: 40%}
+ul a{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	font-size:42px;
+	color: goldenrod;
+}
+
+#donate{
+	color: black;
+}
+
+#donate:hover{
+	color: white;
+}
+
+ul a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+form { 
+	margin-top: 50px; 
+	margin-left: 20px;
+}
+
+input {
+	border:thin #BEBBBB dotted; 
+	background-color:aliceblue; 
+	margin-left: 20px; 
+	margin-bottom: 30px; 
+	padding-right: 50px;
+}
+
+label{
+    display:inline-block;
+    width:100px;
+}
+
+.slick-carousel {
+    margin: 0 auto;
+    width: 1000px;
+  }
+  
+  .slick-slide {
+    width: 350px;
+  }
+  
+  .slick-next::before, .slick-prev::before {
+    color: blue;
+  }
+#mid{
+	display: inline-block;
+	text-align: center;
+	width:100%;
+	height: 1000px;
+	margin-left: 12.5%;
+	}
+
+#stat1, #stat3{
+	float:left;
+	background-color: dimgrey;
+	width: 380px;
+	font-size: 50px;
+	text-align: center;
+	display: inline-block;
+	height: 200px;
+}
+#stat2{
+	float:left;
+	background-color: goldenrod;
+	width: 380px;
+	font-size: 50px;
+	text-align: center;
+	display: inline-block;
+	height: 200px;
+}
+#top{
+	position: relative;
+    text-align: center;
+    color: white;	
+}
+.text{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 70px;
+	position: absolute;
+	text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white;
+}
+#topmid{
+	position: relative;
+    text-align: center;
+    color: white;
+	}
+.text2{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 70px;
+	position: absolute;
+	text-align: center;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white;
+}
+h2{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: center;
+	color: darkgoldenrod;
+	font-size: 50px;
+}
+
+.stat{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: grey;
+	font-size: 18px;
+	text-align: center;
+}
+#vid{
+	margin-left: 35%;
+	padding-bottom: 20px;
+}
+#box2, #box3 {
+	display: flex;
+	margin-left: 25%;
+	padding-bottom: 20px;
+}
+h1{
+	font-size: 20px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:goldenrod;
+}
+
+ .text-overflow,.text-overflow2 {
+      width:350px;
+      height:150px;
+      display:inline-block; 
+      overflow:hidden;
+      word-break: break-word;
+      word-wrap: break-word;
+  }
+
+  .btn-overflow, .btn-overflow2 {
+    display:none;
+    text-decoration:none;
+	  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	  color:goldenrod;
+	  font-size:14px;
+  }
+#source{
+	font-size: 10px;
+}
+address, .txt, ul{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: gray;
+	font-size: 14px;
+	text-align: left;
+}
+a{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	font-size:14px;
+	color: gray;
+}
+a:hover{
+	text-decoration: underline;
+	color: goldenrod;
+}
+#left,#right{
+	float: left;
+	padding-left: 50px;
+}
+
+#lft{
+	float:left;
+}
+footer{
+	align-items: center;
+}
